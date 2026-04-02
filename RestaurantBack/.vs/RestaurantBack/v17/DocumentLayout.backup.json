@@ -1,0 +1,334 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\RestaurantBack\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\source\\repos\\RestaurantBack\\RestaurantBack\\Migrations\\20260402102646_AddBookingTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RestaurantBack\\Migrations\\20260402102646_AddBookingTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{196CCECA-2B09-44CE-B3A0-DFD688BF3137}|RestaurantBack\\RestaurantBack.csproj|c:\\users\\user\\source\\repos\\restaurantback\\restaurantback\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{196CCECA-2B09-44CE-B3A0-DFD688BF3137}|RestaurantBack\\RestaurantBack.csproj|solutionrelative:restaurantback\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{196CCECA-2B09-44CE-B3A0-DFD688BF3137}|RestaurantBack\\RestaurantBack.csproj|c:\\users\\user\\source\\repos\\restaurantback\\restaurantback\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{196CCECA-2B09-44CE-B3A0-DFD688BF3137}|RestaurantBack\\RestaurantBack.csproj|solutionrelative:restaurantback\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{196CCECA-2B09-44CE-B3A0-DFD688BF3137}|RestaurantBack\\RestaurantBack.csproj|c:\\users\\user\\source\\repos\\restaurantback\\restaurantback\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{196CCECA-2B09-44CE-B3A0-DFD688BF3137}|RestaurantBack\\RestaurantBack.csproj|solutionrelative:restaurantback\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{196CCECA-2B09-44CE-B3A0-DFD688BF3137}|RestaurantBack\\RestaurantBack.csproj|c:\\users\\user\\source\\repos\\restaurantback\\restaurantback\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{196CCECA-2B09-44CE-B3A0-DFD688BF3137}|RestaurantBack\\RestaurantBack.csproj|solutionrelative:restaurantback\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{196CCECA-2B09-44CE-B3A0-DFD688BF3137}|RestaurantBack\\RestaurantBack.csproj|c:\\users\\user\\source\\repos\\restaurantback\\restaurantback\\data\\dataseedingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{196CCECA-2B09-44CE-B3A0-DFD688BF3137}|RestaurantBack\\RestaurantBack.csproj|solutionrelative:restaurantback\\data\\dataseedingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{196CCECA-2B09-44CE-B3A0-DFD688BF3137}|RestaurantBack\\RestaurantBack.csproj|c:\\users\\user\\source\\repos\\restaurantback\\restaurantback\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{196CCECA-2B09-44CE-B3A0-DFD688BF3137}|RestaurantBack\\RestaurantBack.csproj|solutionrelative:restaurantback\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{196CCECA-2B09-44CE-B3A0-DFD688BF3137}|RestaurantBack\\RestaurantBack.csproj|c:\\users\\user\\source\\repos\\restaurantback\\restaurantback\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{196CCECA-2B09-44CE-B3A0-DFD688BF3137}|RestaurantBack\\RestaurantBack.csproj|solutionrelative:restaurantback\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{196CCECA-2B09-44CE-B3A0-DFD688BF3137}|RestaurantBack\\RestaurantBack.csproj|c:\\users\\user\\source\\repos\\restaurantback\\restaurantback\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{196CCECA-2B09-44CE-B3A0-DFD688BF3137}|RestaurantBack\\RestaurantBack.csproj|solutionrelative:restaurantback\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{196CCECA-2B09-44CE-B3A0-DFD688BF3137}|RestaurantBack\\RestaurantBack.csproj|c:\\users\\user\\source\\repos\\restaurantback\\restaurantback\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{196CCECA-2B09-44CE-B3A0-DFD688BF3137}|RestaurantBack\\RestaurantBack.csproj|solutionrelative:restaurantback\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{196CCECA-2B09-44CE-B3A0-DFD688BF3137}|RestaurantBack\\RestaurantBack.csproj|c:\\users\\user\\source\\repos\\restaurantback\\restaurantback\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{196CCECA-2B09-44CE-B3A0-DFD688BF3137}|RestaurantBack\\RestaurantBack.csproj|solutionrelative:restaurantback\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{196CCECA-2B09-44CE-B3A0-DFD688BF3137}|RestaurantBack\\RestaurantBack.csproj|c:\\users\\user\\source\\repos\\restaurantback\\restaurantback\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{196CCECA-2B09-44CE-B3A0-DFD688BF3137}|RestaurantBack\\RestaurantBack.csproj|solutionrelative:restaurantback\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{196CCECA-2B09-44CE-B3A0-DFD688BF3137}|RestaurantBack\\RestaurantBack.csproj|c:\\users\\user\\source\\repos\\restaurantback\\restaurantback\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{196CCECA-2B09-44CE-B3A0-DFD688BF3137}|RestaurantBack\\RestaurantBack.csproj|solutionrelative:restaurantback\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{196CCECA-2B09-44CE-B3A0-DFD688BF3137}|RestaurantBack\\RestaurantBack.csproj|c:\\users\\user\\source\\repos\\restaurantback\\restaurantback\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{196CCECA-2B09-44CE-B3A0-DFD688BF3137}|RestaurantBack\\RestaurantBack.csproj|solutionrelative:restaurantback\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{196CCECA-2B09-44CE-B3A0-DFD688BF3137}|RestaurantBack\\RestaurantBack.csproj|c:\\users\\user\\source\\repos\\restaurantback\\restaurantback\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{196CCECA-2B09-44CE-B3A0-DFD688BF3137}|RestaurantBack\\RestaurantBack.csproj|solutionrelative:restaurantback\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{196CCECA-2B09-44CE-B3A0-DFD688BF3137}|RestaurantBack\\RestaurantBack.csproj|c:\\users\\user\\source\\repos\\restaurantback\\restaurantback\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{196CCECA-2B09-44CE-B3A0-DFD688BF3137}|RestaurantBack\\RestaurantBack.csproj|solutionrelative:restaurantback\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{196CCECA-2B09-44CE-B3A0-DFD688BF3137}|RestaurantBack\\RestaurantBack.csproj|c:\\users\\user\\source\\repos\\restaurantback\\restaurantback\\models\\productvariation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{196CCECA-2B09-44CE-B3A0-DFD688BF3137}|RestaurantBack\\RestaurantBack.csproj|solutionrelative:restaurantback\\models\\productvariation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{196CCECA-2B09-44CE-B3A0-DFD688BF3137}|RestaurantBack\\RestaurantBack.csproj|c:\\users\\user\\source\\repos\\restaurantback\\restaurantback\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{196CCECA-2B09-44CE-B3A0-DFD688BF3137}|RestaurantBack\\RestaurantBack.csproj|solutionrelative:restaurantback\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20260402102646_AddBookingTable.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\RestaurantBack\\RestaurantBack\\Migrations\\20260402102646_AddBookingTable.cs",
+              "RelativeDocumentMoniker": "RestaurantBack\\Migrations\\20260402102646_AddBookingTable.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\RestaurantBack\\RestaurantBack\\Migrations\\20260402102646_AddBookingTable.cs",
+              "RelativeToolTip": "RestaurantBack\\Migrations\\20260402102646_AddBookingTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T10:26:46.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\RestaurantBack\\RestaurantBack\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "RestaurantBack\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\RestaurantBack\\RestaurantBack\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "RestaurantBack\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T09:38:14.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BookingController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\RestaurantBack\\RestaurantBack\\Controllers\\BookingController.cs",
+              "RelativeDocumentMoniker": "RestaurantBack\\Controllers\\BookingController.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\RestaurantBack\\RestaurantBack\\Controllers\\BookingController.cs",
+              "RelativeToolTip": "RestaurantBack\\Controllers\\BookingController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAUwFoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T09:35:45.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\RestaurantBack\\RestaurantBack\\Models\\Booking.cs",
+              "RelativeDocumentMoniker": "RestaurantBack\\Models\\Booking.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\RestaurantBack\\RestaurantBack\\Models\\Booking.cs",
+              "RelativeToolTip": "RestaurantBack\\Models\\Booking.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T09:31:04.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\RestaurantBack\\RestaurantBack\\Models\\OrderItem.cs",
+              "RelativeDocumentMoniker": "RestaurantBack\\Models\\OrderItem.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\RestaurantBack\\RestaurantBack\\Models\\OrderItem.cs",
+              "RelativeToolTip": "RestaurantBack\\Models\\OrderItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T07:59:21.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\RestaurantBack\\RestaurantBack\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "RestaurantBack\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\RestaurantBack\\RestaurantBack\\Models\\Order.cs",
+              "RelativeToolTip": "RestaurantBack\\Models\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T18:24:11.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\RestaurantBack\\RestaurantBack\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "RestaurantBack\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\RestaurantBack\\RestaurantBack\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "RestaurantBack\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAIwIUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T11:54:20.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ProductVariation.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\RestaurantBack\\RestaurantBack\\Models\\ProductVariation.cs",
+              "RelativeDocumentMoniker": "RestaurantBack\\Models\\ProductVariation.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\RestaurantBack\\RestaurantBack\\Models\\ProductVariation.cs",
+              "RelativeToolTip": "RestaurantBack\\Models\\ProductVariation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T11:53:44.127Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\RestaurantBack\\RestaurantBack\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "RestaurantBack\\Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\RestaurantBack\\RestaurantBack\\Controllers\\CartController.cs",
+              "RelativeToolTip": "RestaurantBack\\Controllers\\CartController.cs",
+              "ViewState": "AgIAAOYAAAAAAAAAAAAAwPwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T11:51:02.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DataSeedingService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\RestaurantBack\\RestaurantBack\\Data\\DataSeedingService.cs",
+              "RelativeDocumentMoniker": "RestaurantBack\\Data\\DataSeedingService.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\RestaurantBack\\RestaurantBack\\Data\\DataSeedingService.cs",
+              "RelativeToolTip": "RestaurantBack\\Data\\DataSeedingService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T11:48:32.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\RestaurantBack\\RestaurantBack\\Data\\DataContext.cs",
+              "RelativeDocumentMoniker": "RestaurantBack\\Data\\DataContext.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\RestaurantBack\\RestaurantBack\\Data\\DataContext.cs",
+              "RelativeToolTip": "RestaurantBack\\Data\\DataContext.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAuwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T11:48:16.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\RestaurantBack\\RestaurantBack\\Program.cs",
+              "RelativeDocumentMoniker": "RestaurantBack\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\RestaurantBack\\RestaurantBack\\Program.cs",
+              "RelativeToolTip": "RestaurantBack\\Program.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAgwFQAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T14:50:04.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\RestaurantBack\\RestaurantBack\\appsettings.json",
+              "RelativeDocumentMoniker": "RestaurantBack\\appsettings.json",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\RestaurantBack\\RestaurantBack\\appsettings.json",
+              "RelativeToolTip": "RestaurantBack\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-29T13:11:38.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\RestaurantBack\\RestaurantBack\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "RestaurantBack\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\RestaurantBack\\RestaurantBack\\Controllers\\UserController.cs",
+              "RelativeToolTip": "RestaurantBack\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAGsAAAAAAAAAAAA8wHMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T15:10:57.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\RestaurantBack\\RestaurantBack\\Models\\Cart.cs",
+              "RelativeDocumentMoniker": "RestaurantBack\\Models\\Cart.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\RestaurantBack\\RestaurantBack\\Models\\Cart.cs",
+              "RelativeToolTip": "RestaurantBack\\Models\\Cart.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T16:06:45.407Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\RestaurantBack\\RestaurantBack\\Models\\CartItem.cs",
+              "RelativeDocumentMoniker": "RestaurantBack\\Models\\CartItem.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\RestaurantBack\\RestaurantBack\\Models\\CartItem.cs",
+              "RelativeToolTip": "RestaurantBack\\Models\\CartItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T16:07:02.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\RestaurantBack\\RestaurantBack\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "RestaurantBack\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\RestaurantBack\\RestaurantBack\\Models\\Product.cs",
+              "RelativeToolTip": "RestaurantBack\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T15:26:08.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\RestaurantBack\\RestaurantBack\\Models\\User.cs",
+              "RelativeDocumentMoniker": "RestaurantBack\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\RestaurantBack\\RestaurantBack\\Models\\User.cs",
+              "RelativeToolTip": "RestaurantBack\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T15:25:20.144Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+wwwroot\images\products\khashlama.jpg
+wwwroot\images\products\kubdari.jpg
+wwwroot\images\products\mtsvadi.webp
+wwwroot\images\products\chakapuli.jpg
+wwwroot\images\products\beans.webp
+wwwroot\images\products\khachapuri.jpg
+wwwroot\images\products\mchadi.jpg
+wwwroot\images\products\gvino.webp
+wwwroot\images\products\yveli.webp
+wwwroot\images\products\lobiani.jpg
+wwwroot\images\products\shqmeruli.jpg
+wwwroot\images\products\khinkali.jpg
+wwwroot\images\products\chakhokhbili.jpg
+wwwroot\images\products\badrijani.jpg
+wwwroot\images\products\elarji.jpg
+wwwroot\images\products\kupati.jpg

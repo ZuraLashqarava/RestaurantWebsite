@@ -1,0 +1,553 @@
+
+$bg-deep:        #0a0a0f;
+$bg-card:        #14141c;
+$bg-input:       #1e1e2a;
+$bg-room:        #12121a;
+
+$crimson:        #b22222;
+$crimson-dim:    rgba(178, 34, 34, 0.35);
+$crimson-glow:   rgba(178, 34, 34, 0.12);
+
+$green:          #2e7d52;
+$green-glow:     rgba(46, 125, 82, 0.25);
+$green-bright:   #3da06a;
+
+$border-subtle:  rgba(255, 255, 255, 0.06);
+$border-mid:     rgba(255, 255, 255, 0.1);
+
+$text-primary:   #f5f0e8;
+$text-secondary: #c8c0b0;
+$text-muted:     rgba(255, 255, 255, 0.35);
+
+$font-serif:     "Cinzel", serif;
+$font-body:      "Cormorant Garamond", serif; 
+
+
+
+.booking {
+  min-height:  calc(100vh - 68px);
+  width:       100%;
+  background:  $bg-deep;
+  font-family: $font-serif;
+  padding-bottom: 100px;
+
+  
+  &::before {
+    content:    "";
+    position:   fixed;
+    inset:      0;
+    background: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");
+    background-size: 200px 200px;
+    pointer-events: none;
+    z-index:    0;
+  }
+
+  > * { position: relative; z-index: 1; }
+
+
+
+  &__header {
+    text-align: center;
+    padding:    64px 20px 40px;
+    animation:  fadeDown 0.6s ease both;
+  }
+
+  &__title {
+    font-size:      2.8rem;
+    font-weight:    400;
+    color:          $text-primary;
+    letter-spacing: 0.1em;
+    margin:         0 0 10px;
+  }
+
+  &__subtitle {
+    font-size:      0.78rem;
+    font-weight:    400;
+    color:          $text-muted;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    margin:         0 0 28px;
+  }
+
+  &__divider {
+    width:      60px;
+    height:     2px;
+    background: $crimson;
+    margin:     0 auto;
+  }
+
+ 
+
+  &__layout {
+    display:    flex;
+    gap:        32px;
+    max-width:  1200px;
+    margin:     0 auto;
+    padding:    0 24px;
+    align-items: flex-start;
+
+    @media (max-width: 860px) {
+      flex-direction: column;
+    }
+  }
+
+  &__form-panel {
+    width:          320px;
+    flex-shrink:    0;
+    animation:      fadeUp 0.5s ease 0.15s both;
+
+    @media (max-width: 860px) {
+      width: 100%;
+    }
+  }
+
+  &__form {
+    background:    $bg-card;
+    border:        1px solid $border-subtle;
+    border-radius: 4px;
+    padding:       32px 28px;
+    display:       flex;
+    flex-direction: column;
+    gap:           24px;
+  }
+
+  &__form-title {
+    font-size:      0.8rem;
+    font-weight:    400;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color:          $text-muted;
+    margin:         0 0 4px;
+  }
+
+ 
+
+  &__field {
+    display:        flex;
+    flex-direction: column;
+    gap:            8px;
+  }
+
+  &__label {
+    font-size:      0.72rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color:          $text-muted;
+  }
+
+  &__input {
+    width:         100%;
+    box-sizing:    border-box;
+    background:    $bg-input;
+    border:        1px solid $border-mid;
+    border-radius: 4px;
+    color:         $text-primary;
+    font-family:   $font-serif;
+    font-size:     0.82rem;
+    padding:       11px 14px;
+    outline:       none;
+    transition:    border-color 0.2s ease, box-shadow 0.2s ease;
+
+    &::placeholder { color: $text-muted; }
+
+    &[readonly] {
+      cursor: default;
+      color:  $crimson;
+    }
+
+    &:not([readonly]):hover,
+    &:not([readonly]):focus {
+      border-color: $crimson-dim;
+      box-shadow:   0 0 0 3px $crimson-glow;
+    }
+
+   
+    &--date {
+      cursor: pointer;
+      color-scheme: dark;
+
+      &::-webkit-calendar-picker-indicator {
+        filter:  invert(0.4) sepia(1) saturate(3) hue-rotate(300deg);
+        cursor:  pointer;
+        opacity: 0.7;
+
+        &:hover { opacity: 1; }
+      }
+
+      &:disabled {
+        opacity: 0.4;
+        cursor:  not-allowed;
+      }
+    }
+  }
+
+ 
+
+  &__select-wrap {
+    position: relative;
+  }
+
+  &__select {
+    width:         100%;
+    box-sizing:    border-box;
+    appearance:    none;
+    background:    $bg-input;
+    border:        1px solid $border-mid;
+    border-radius: 4px;
+    color:         $text-primary;
+    font-family:   $font-serif;
+    font-size:     0.82rem;
+    padding:       11px 36px 11px 14px;
+    cursor:        pointer;
+    outline:       none;
+    transition:    border-color 0.2s ease, box-shadow 0.2s ease;
+
+    option { background: $bg-input; }
+
+    &:hover:not(:disabled),
+    &:focus:not(:disabled) {
+      border-color: $crimson-dim;
+      box-shadow:   0 0 0 3px $crimson-glow;
+    }
+
+    &:disabled {
+      opacity: 0.4;
+      cursor:  not-allowed;
+    }
+  }
+
+  &__select-arrow {
+    position:       absolute;
+    right:          12px;
+    top:            50%;
+    transform:      translateY(-50%);
+    color:          rgba($crimson, 0.8);
+    font-size:      0.75rem;
+    pointer-events: none;
+  }
+
+  &__field-hint {
+    font-size:      0.7rem;
+    letter-spacing: 0.1em;
+    color:          $text-muted;
+    margin:         0;
+  }
+
+
+
+  &__msg {
+    font-size:   0.78rem;
+    letter-spacing: 0.06em;
+    margin:      0;
+    padding:     10px 14px;
+    border-radius: 4px;
+
+    &--success {
+      background: rgba($green, 0.12);
+      border:     1px solid rgba($green, 0.4);
+      color:      $green-bright;
+    }
+
+    &--error {
+      background: $crimson-glow;
+      border:     1px solid $crimson-dim;
+      color:      lighten($crimson, 18%);
+    }
+  }
+
+
+
+  &__submit {
+    padding:        12px 0;
+    font-family:    $font-serif;
+    font-size:      0.75rem;
+    font-weight:    700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    border:         1px solid $crimson;
+    border-radius:  4px;
+    background:     transparent;
+    color:          $crimson;
+    cursor:         pointer;
+    transition:     background 0.25s ease, color 0.25s ease, transform 0.2s ease,
+    box-shadow 0.25s ease;
+
+    &:hover:not(:disabled) {
+      background:  $crimson;
+      color:       #fff;
+      transform:   translateY(-1px);
+      box-shadow:  0 6px 20px rgba($crimson, 0.35);
+    }
+
+    &:active:not(:disabled) {
+      transform: translateY(0);
+    }
+
+    &:disabled {
+      opacity: 0.35;
+      cursor:  not-allowed;
+    }
+  }
+
+
+
+  &__legend {
+    display:     flex;
+    align-items: center;
+    gap:         10px;
+    margin-top:  18px;
+    padding:     0 4px;
+  }
+
+  &__legend-dot {
+    width:         10px;
+    height:        10px;
+    border-radius: 50%;
+    flex-shrink:   0;
+
+    &--available { background: $green-bright; box-shadow: 0 0 6px rgba($green, 0.7); }
+    &--booked    { background: $crimson;       box-shadow: 0 0 6px rgba($crimson, 0.7); }
+  }
+
+  &__legend-label {
+    font-size:      0.7rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color:          $text-muted;
+
+    & + .booking__legend-dot { margin-left: 14px; }
+  }
+
+
+
+  &__floor {
+    flex:      1;
+    animation: fadeUp 0.5s ease 0.25s both;
+  }
+
+  &__floor-title {
+    font-size:      0.8rem;
+    font-weight:    400;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color:          $text-muted;
+    margin:         0 0 20px;
+  }
+
+ 
+
+  &__room {
+    position:      relative;
+    background:    $bg-room;
+    border:        1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 6px;
+    padding:       48px 32px 40px;
+    box-shadow:    inset 0 0 80px rgba(0, 0, 0, 0.4);
+    overflow:      hidden;
+
+    // floor texture
+    &::after {
+      content:    "";
+      position:   absolute;
+      inset:      0;
+      background: repeating-linear-gradient(
+        90deg,
+        transparent,
+        transparent 39px,
+        rgba(255, 255, 255, 0.015) 39px,
+        rgba(255, 255, 255, 0.015) 40px
+      ),
+      repeating-linear-gradient(
+        0deg,
+        transparent,
+        transparent 39px,
+        rgba(255, 255, 255, 0.015) 39px,
+        rgba(255, 255, 255, 0.015) 40px
+      );
+      pointer-events: none;
+    }
+  }
+
+  &__room-label {
+    position:       absolute;
+    top:            14px;
+    left:           50%;
+    transform:      translateX(-50%);
+    font-size:      0.65rem;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color:          $text-muted;
+    white-space:    nowrap;
+  }
+
+ 
+
+  &__corner {
+    position: absolute;
+    width:    14px;
+    height:   14px;
+    border-color: rgba($crimson, 0.5);
+    border-style: solid;
+
+    &--tl { top: 8px; left: 8px;  border-width: 1px 0 0 1px; }
+    &--tr { top: 8px; right: 8px; border-width: 1px 1px 0 0; }
+    &--bl { bottom: 8px; left: 8px;  border-width: 0 0 1px 1px; }
+    &--br { bottom: 8px; right: 8px; border-width: 0 1px 1px 0; }
+  }
+
+ 
+
+  &__tables-grid {
+    position:              relative;
+    z-index:               1;
+    display:               grid;
+    grid-template-columns: 1fr 48px 1fr; // col 2 = aisle gap
+    grid-template-rows:    auto 32px auto 32px auto;
+    gap:                   0;
+  }
+
+ 
+
+  &__table {
+    position:       relative;
+    display:        flex;
+    flex-direction: column;
+    align-items:    center;
+    justify-content: center;
+    gap:            5px;
+    padding:        22px 16px 18px;
+    border-radius:  4px;
+    border:         none;
+    cursor:         pointer;
+    font-family:    $font-serif;
+    transition:     transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+    animation:      fadeUp 0.4s ease both;
+
+  
+    @for $i from 1 through 6 {
+      &:nth-child(#{$i}) { animation-delay: #{$i * 0.07}s; }
+    }
+
+   
+    &--available {
+      background:   rgba($green, 0.12);
+      border:       1px solid rgba($green-bright, 0.35);
+      color:        $green-bright;
+
+      .booking__table-label { color: $green-bright; }
+      .booking__table-cap   { color: rgba($green-bright, 0.7); }
+
+      &:hover {
+        transform:    translateY(-2px);
+        box-shadow:   0 8px 24px $green-glow;
+        border-color: rgba($green-bright, 0.7);
+      }
+    }
+
+   
+    &--booked {
+      background: $crimson-glow;
+      border:     1px solid $crimson-dim;
+      color:      lighten($crimson, 10%);
+      cursor:     not-allowed;
+
+      .booking__table-label { color: lighten($crimson, 10%); }
+      .booking__table-cap   { color: $crimson-dim; }
+
+      &:hover {
+        transform:  none;
+        box-shadow: none;
+      }
+    }
+
+    
+    &--selected {
+      transform:   translateY(-3px) !important;
+      box-shadow:  0 0 0 2px $green-bright, 0 10px 30px $green-glow !important;
+    }
+
+    
+    &--cap2 { min-height: 90px; }
+    &--cap4 { min-height: 110px; }
+    &--cap6 { min-height: 130px; }
+  }
+
+  &__table-label {
+    font-size:      0.7rem;
+    font-weight:    700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+  }
+
+  &__table-cap {
+    font-size:      0.55rem;
+    letter-spacing: 0.08em;
+    word-spacing:   2px;
+  }
+
+  &__table-seats {
+    font-size:      0.65rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    opacity:        0.6;
+  }
+
+ 
+
+  &__log {
+    margin-top:    24px;
+    background:    $bg-card;
+    border:        1px solid $border-subtle;
+    border-radius: 4px;
+    padding:       20px 24px;
+    animation:     fadeUp 0.4s ease both;
+  }
+
+  &__log-title {
+    font-size:      0.72rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color:          $text-muted;
+    margin:         0 0 14px;
+    font-weight:    400;
+  }
+
+  &__log-list {
+    list-style: none;
+    margin:     0;
+    padding:    0;
+    display:    flex;
+    flex-direction: column;
+    gap:        10px;
+  }
+
+  &__log-item {
+    display:     flex;
+    align-items: center;
+    gap:         14px;
+    font-size:   0.8rem;
+  }
+
+  &__log-table {
+    color:          $crimson;
+    font-weight:    700;
+    letter-spacing: 0.1em;
+    min-width:      44px;
+  }
+
+  &__log-info {
+    color:          $text-secondary;
+    letter-spacing: 0.05em;
+  }
+}
+
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(18px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeDown {
+  from { opacity: 0; transform: translateY(-12px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
